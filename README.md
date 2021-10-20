@@ -1,17 +1,18 @@
-# Test Task for UKAD - Front-end
+# Test Task for UKAD - Front-end - React
 
 This application has been made for test task: https://docs.google.com/document/d/1lVoQOKZTqnTWzXQ8Evdh4lG4ETMA_cLV_dYeWqIlO_c/edit
-.
 
-## Run application
+## Installation
 
-In the project directory, you can run:
+git clone https://github.com/Webaloevera/Ukad.git
 
-`npx run` or `npm start`
+Install dependencies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+`npm install`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Run build for development
 
+`npm start`
+
+## Contacts
+dimacherenkov97@gmail.com
