@@ -2,7 +2,7 @@
 
 This application has been made for test task: https://docs.google.com/document/d/1lVoQOKZTqnTWzXQ8Evdh4lG4ETMA_cLV_dYeWqIlO_c/edit
 
-## Installation
+## Setup guide
 
 git clone https://github.com/Webaloevera/Ukad.git
 
