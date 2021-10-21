@@ -5,16 +5,25 @@
     row-gap: 20px;
     .card {
         width: 30%;
+        img {
+                height: 200px;
+            }
     }
 }
 @media (max-width: 820px) { 
-    .cards {
-        justify-content: center;
-    }
+    .cards .card {
+            width: 45%;
+        }
  }
 
  @media (max-width: 500px) { 
-    .cards .card {
+    .cards {
+        justify-content: center;
+        .card {
         width: 100%;
+        img {
+            height: auto;
+        }
+        }
     }
  }

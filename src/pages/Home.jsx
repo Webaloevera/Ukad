@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Slider from "react-slick";
 import {Card} from '../components';
 import "../styles/home.scss";
@@ -6,6 +6,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const Home = (props) => {
+
+  useEffect(() => {
+    document.title = "Home Page"
+ }, []);
 
 const settings = {
       dots: false,
@@ -21,7 +25,7 @@ const settings = {
             slidesToShow: 3,
             slidesToScroll: 3,
             infinite: true,
-            dots: true
+            dots: false
           }
         },
         {
@@ -49,7 +53,7 @@ const settings = {
       ]
     };
     return (
-        <div>
+        <div className="home__wrapper">
             <h1>Home Page</h1>
             <Slider className="home-slider" {...settings}>
           {(props.store || []).slice(0, 8).map((item) => <Card items={item} key={item.id}/>)}
