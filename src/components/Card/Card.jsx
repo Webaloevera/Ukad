@@ -2,6 +2,7 @@ import React from 'react'
 import './card.scss'
 import PropTypes from 'prop-types';
 const Card = (props) => {
+
     return (
         <div className="card">
             <img src={props.items.image.url} alt={props.items.name}/>
