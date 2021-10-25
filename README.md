@@ -4,15 +4,15 @@ This application has been made for test task: https://docs.google.com/document/d
 
 ## Setup guide
 
-git clone https://github.com/Webaloevera/Ukad.git
+1 Install npm.
 
-Install dependencies
+2 Clone git project and cd to it with command `git clone https://github.com/Webaloevera/Ukad.git`
 
-`npm install`
+3 Install packages by running `npm install`
 
-Run build for development
+4 Start project with `npm start`
 
-`npm start`
+5 Open in Chrome http://localhost:3000/
 
 ## Contacts
 dimacherenkov97@gmail.com
