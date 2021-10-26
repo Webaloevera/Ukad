@@ -14,5 +14,14 @@ This application has been made for test task: https://docs.google.com/document/d
 
 5 Open in Chrome http://localhost:3000/
 
+## Technology stack:
+
+* React
+* react-router
+* Sass
+* axios
+* prop-types
+* react-slick
+
 ## Contacts
 dimacherenkov97@gmail.com
